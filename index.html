@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdul - Developer - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body {
+        font-family: 'Young Serif', serif;
+        /* background-color: blue; */
+        
+      }
+
+
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+        background-color: rgb(37, 37, 113); 
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li{
+        list-style: none;
+        margin: 0 23px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background: gray;
+        color: white;
+
+      }
+      nav ul li:hover {
+        background: rgb(217, 214, 214);
+        cursor: pointer;
+        color: black;
+      }
+      nav .left{
+        font-size: 2rem;
+        color: white;
+      }
+      .firstSection{
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-around;
+      }
+      .right{
+        border: 1px solid red;
+      }
+      
+      .left{
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Abdul's Portfolio</div>
+        <div class="right"></div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="left">left</div>
+        <div class="right">right</div>
+      </section>
+    </main>
+  </body>
+</html>
